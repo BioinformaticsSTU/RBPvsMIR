@@ -1,11 +1,4 @@
 
-# mark
-
-##What is RBPmap? 
-
-RBPmap method is based on a Weighted-Rank approach, which considers the clustering propensity of the binding sites and the overall tendency of regulatory regions to be conserved. For more details, please refer to (Paz, et al., 2014). 
-
-##################
 
 # RBPvsMIR
 A Computational Pipeline to Identify Competing miRNAs and RNA-Binding Protein Pairs Regulating the Shared Transcripts
