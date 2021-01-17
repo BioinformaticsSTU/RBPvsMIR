@@ -70,17 +70,17 @@ where the subcommand can be one of these:
 # Options
 ----------------------------
 
-- **-r**  | **--rna**: RNA sequence, length of the sequence should not be greater than 2000
+- **-r**  | **--rna**: RNA sequence, the length of RNA sequence should not be greater than 2000
 
 - **-s**  | **--species**: species that the RNA is belonged to, ie. human, mouse
 
-- **-d**  | **--distance**: distance between the RBP binding sites and miRNA binding sites
+- **-d**  | **--distance**: distance between the RBP binding sites and miRNA binding sites, 100 is recommended
 
-- **-p**  | **--p_value**: p-value RBPmap adopts for the result cutoff. 0.01 is set as defaut
+- **-p**  | **--p_value**: p-value RBPmap adopts for the result cutoff. 0.01 is recommended
 
-- **-g**  | **--ddG**: energetic cutoff score, which is originally used by PITA to evaluate stability between the closed and open forms of miRNA-target duplex. -6 is set as defaut. if subcommand is targetscan, this option should be ignored
+- **-g**  | **--ddG**: energetic cutoff score, which is originally used by PITA to evaluate stability between the closed and open forms of miRNA-target duplex. -6 is recommended. if subcommand is targetscan, this option should be ignored
 
-- **-f**  | **--fdr**: false discovery rate (FDR) used to control the rate of type I errors when conducting multiple testings. -0.05 is set as defaut
+- **-f**  | **--fdr**: false discovery rate (FDR) used to control the rate of type I errors when conducting multiple testings. -0.05 is recommended
 
 
 ----------------------------
