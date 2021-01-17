@@ -42,8 +42,7 @@ The equitment which this software run on should fulfill conditions below:
 6. dependencies RBPmap, pita and targetscan should be installed in the main directory, links of these dependencies are shown below
 
 ```
-RBPmap version 1.1: http://rbpmap.technion.ac.il/
-PS: in the configuration file, the path to the main directory under which the results sub-directories should be $results_dir = "./result/";
+RBPmap version 1.1: http://rbpmap.technion.ac.il/ (in the configuration file, the path to the main directory under which the results sub-directories should be set as '$results_dir = "./result/";')
 pita 1.0: https://genie.weizmann.ac.il/404?h=3692488138648847654
 targetscan version 7.0: http://www.targetscan.org/vert_72/
 ```
@@ -63,25 +62,25 @@ where the subcommand can be one of these:
 
 - **pita**    :  Pita would be chosen as the algorithm to search the miRNAs binding sites
 - **targetscan**    :  targetScan would be chosen as the algorithm to search the miRNAs binding sites
-- **union**    :  Pita and targetscan would all be used as the algorithm to search the miRNAs binding sites and the results would be combined
-- **intersection**    :  Pita and targetscan would all be used as the algorithm to search the miRNAs binding sites and the results would be intersected
+- **union**    :  Pita and targetscan would be used as the algorithms to search the miRNAs binding sites and the results would be combined
+- **intersection**    :  Pita and targetscan would be used as the algorithms to search the miRNAs binding sites and the results would be intersected
 
 
 ----------------------------
 # Options
 ----------------------------
 
-- **-r**  | **--rna**: RNA sequence, length of the sequence should not be greater than 2000.
+- **-r**  | **--rna**: RNA sequence, length of the sequence should not be greater than 2000
 
 - **-s**  | **--species**: species that the RNA is belonged to, ie. human, mouse
 
 - **-d**  | **--distance**: distance between the RBP binding sites and miRNA binding sites
 
-- **-p**  | **--p_value**: p-value RBPmap adopts for the result cutoff. 0.01 is set as defaut.
+- **-p**  | **--p_value**: p-value RBPmap adopts for the result cutoff. 0.01 is set as defaut
 
-- **-g**  | **--ddG**: energetic cutoff score, which is originally used by PITA to evaluate stability between the closed and open forms of miRNA-target duplex. -6 is set as defaut. if subcommand is targetscan, this option should be ignored.
+- **-g**  | **--ddG**: energetic cutoff score, which is originally used by PITA to evaluate stability between the closed and open forms of miRNA-target duplex. -6 is set as defaut. if subcommand is targetscan, this option should be ignored
 
-- **-f**  | **--fdr**: false discovery rate (FDR) used to control the rate of type I errors when conducting multiple testings. -0.05 is set as defaut.
+- **-f**  | **--fdr**: false discovery rate (FDR) used to control the rate of type I errors when conducting multiple testings. -0.05 is set as defaut
 
 
 ----------------------------
