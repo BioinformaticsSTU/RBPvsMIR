@@ -42,7 +42,7 @@ The equitment which this software run on should fulfill conditions below:
 6. dependencies RBPmap, pita and targetscan should be installed in the main directory, links of these dependencies are shown below
 ```
 RBPmap version 1.1: http://rbpmap.technion.ac.il/ (in RBPmap.pl, the path to the main directory under which the results sub-directories will be created should be set as '$results_dir = "./result/";')
-Pita version 1.0: https://genie.weizmann.ac.il
+Pita version 1.0: http://genie.weizmann.ac.il/pubs/mir07/mir07 data.html
 Targetscan version 7.0: http://www.targetscan.org/vert_72/
 ```
 
