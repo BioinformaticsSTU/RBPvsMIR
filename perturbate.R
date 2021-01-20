@@ -1,3 +1,6 @@
+#!/usr/bin/Rscript
+
+
 args<-commandArgs(T);
 TITLE=args[1];
 STRING=args[2];
