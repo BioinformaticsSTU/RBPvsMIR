@@ -19,7 +19,7 @@ input_pita_utr=file_input; #input_utr.fa
 input_pita_mirna="known_mirs/human_mirs.fasta"; #known_mirs/human_mirs.fasta,input_microRNAs.fa
 output_name="test";
 
-commands.getoutput("pita/pita_prediction.pl -utr "+input_pita_utr+" -mir "+input_pita_mirna+" -prefix result/"+title+"_"+num+"/"+output_name+" -gxp -l 8 -gu 8;0 -m 8;0");
+commands.getoutput("./pita/pita_prediction.pl -utr "+input_pita_utr+" -mir "+input_pita_mirna+" -prefix result/"+title+"_"+num+"/"+output_name+" -gxp -l 8 -gu 8;0 -m 8;0");
 
 ###########integrate
 
