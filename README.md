@@ -108,21 +108,21 @@ network.png
 # Notes
 ----------------------------
 
-Sequence length: the maximal is 2,000 bp. If you have longer sequences, please divide them into segments up to 2,000 bp long.
+Sequence length: the maximal is 2,000 bp. If you have longer sequences, please divide them into segments up to 2,000 bp long.  
 
-Computational time: Since scaning the overlaping sites among RBPvsMIR involves extensive computations, it may take several days to complete the scaning job.
+Computational time: Since scaning the overlaping sites among RBPvsMIR involves extensive computations, it may take several days to complete the scaning job.  
 
 ----------------------------
 # References
 ----------------------------
 
-Benjamini, Y. and Hochberg, Y. (1995) Controlling the false discovery rate: A practical and powerful approach to multiple testing, J. R.Stat. Soc. B, 57, 289-300. 
+Benjamini, Y. and Hochberg, Y. (1995) Controlling the false discovery rate: A practical and powerful approach to multiple testing, J. R.Stat. Soc. B, 57, 289-300.  
 
-Kertesz, M., et al. (2007) The role of site accessibility in microRNA target recognition, Nat Genet, 39, 1278-1284. 
+Kertesz, M., et al. (2007) The role of site accessibility in microRNA target recognition, Nat Genet, 39, 1278-1284.  
 
-Paz, I., et al. (2014) RBPmap: a web server for mapping binding sites of RNA-binding proteins, Nucleic Acids Res, 42, W361-367. 
+Paz, I., et al. (2014) RBPmap: a web server for mapping binding sites of RNA-binding proteins, Nucleic Acids Res, 42, W361-367.  
 
-Agarwal, V., et al. (2015) Predicting effective microRNA target sites in mammalian mRNAs. Elife.
+Agarwal, V., et al. (2015) Predicting effective microRNA target sites in mammalian mRNAs. Elife.  
 
 ----------------------------
 # License
