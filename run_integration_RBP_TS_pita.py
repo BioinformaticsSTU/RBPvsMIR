@@ -56,7 +56,7 @@ else:
 
 output_name="test";
 
-commands.getoutput("/opt/pita/pita -utr "+input_pita_utr+" -mir "+input_pita_mirna+" -prefix result/"+timestamp+"/"+output_name+" -gxp -l 8 -gu 8;0 -m 8;0");
+commands.getoutput("./pita/pita -utr "+input_pita_utr+" -mir "+input_pita_mirna+" -prefix result/"+timestamp+"/"+output_name+" -gxp -l 8 -gu 8;0 -m 8;0");
 
 
 #############
