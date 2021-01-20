@@ -8,7 +8,7 @@ A Computational Pipeline to Identify Competing miRNAs and RNA-Binding Protein Pa
 ----------------------------
 
    * [Overview](#overview)
-   * [Dependencies](#Dependencies)
+   * [Requirements](#Requirements)
    * [Command and subcommand structure](#command-and-subcommand-structure)
       * [pita](#pita)
       * [targetscan](#targetscan)
@@ -30,7 +30,7 @@ Gene post-transcription regulation involves several critical regulators such as 
 <img src="workflow1.png" width = "750" height = "400"  />
 
 ----------------------------
-# Dependencies
+# Requirements
 ----------------------------
 
 The equitment which this software run on should fulfill conditions below:
