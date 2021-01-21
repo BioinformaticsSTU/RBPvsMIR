@@ -110,7 +110,7 @@ network.png
 
 Sequence length: the maximal is 2,000 bp. If you have longer sequences, please divide them into segments up to 2,000 bp long.  
 Computational time: depending on your computational environment and task, it may take several hours to days to complete the scaning job.  
-Citation: this package is transformed from the server in "RBPvsMIR: A Computational Pipeline to Identify Competing miRNAs and RNA-Binding Protein Pairs Regulating the Shared Transcripts". if you want to cite this package, you can use the link https://www.mdpi.com/2073-4425/9/9/426  
+Citation: this package is transformed from paper "RBPvsMIR: A Computational Pipeline to Identify Competing miRNAs and RNA-Binding Protein Pairs Regulating the Shared Transcripts". if you want to cite this package, you can use this link https://www.mdpi.com/2073-4425/9/9/426  
 
 ----------------------------
 # References
