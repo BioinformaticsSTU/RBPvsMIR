@@ -109,7 +109,7 @@ network.png
 ----------------------------
 
 Sequence length: the maximal is 2,000 bp. If you have longer sequences, please divide them into segments up to 2,000 bp long.  
-Computational time: Since scaning the overlaping sites among RBPvsMIR involves extensive computations, it may take several days to complete the scaning job.  
+Computational time: depending on your computational environment and task, it may take several hours to days to complete the scaning job.  
 
 ----------------------------
 # References
